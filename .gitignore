@@ -1,28 +1,13 @@
-# Dependencies
 node_modules/
-
-# Environment variables and secrets
 .env
 .env.*
 !.env.example
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-
-# Build output
 dist/
 build/
-
-# Coverage reports
-coverage/
-
-# Operating system files
+*.log
+npm-debug.log*
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Editor settings
-.vscode/
+.vs
 .idea/
